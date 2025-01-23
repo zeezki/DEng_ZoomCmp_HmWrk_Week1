@@ -2,6 +2,7 @@
 
 ## Question 3;
 
+```sql
 SELECT 
     CASE
         WHEN trip_distance <= 1 THEN 'Up to 1 mile'
