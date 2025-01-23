@@ -21,6 +21,7 @@ ORDER BY trip_count DESC;
 
 ## Question 4;
 
+```sql
 SELECT 
     TO_CHAR(lpep_pickup_datetime, 'YYYY-MM-DD') AS pickup_day,
     MAX(trip_distance) AS longest_trip_distance
