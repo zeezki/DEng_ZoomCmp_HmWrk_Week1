@@ -57,7 +57,7 @@ ORDER BY
 
 
 ## Question 6;
-
+```sql
 SELECT 
     dz."Zone" AS dropoff_zone,
     MAX(t.tip_amount) AS max_tip
