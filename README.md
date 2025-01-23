@@ -32,7 +32,7 @@ GROUP BY
 ORDER BY 
     longest_trip_distance DESC
 LIMIT 1;
-
+```
 
 ## Question 5;
 
@@ -53,7 +53,7 @@ HAVING
     SUM(t.total_amount) > 13000
 ORDER BY 
     total_amount DESC;
-
+```
 
 
 ## Question 6;
@@ -75,3 +75,4 @@ GROUP BY
 ORDER BY 
     max_tip DESC
 LIMIT 1;
+```
