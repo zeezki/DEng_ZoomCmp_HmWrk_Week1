@@ -36,6 +36,8 @@ LIMIT 1;
 
 ## Question 5;
 
+```sql
+
 SELECT 
     z."Borough", 
     z."Zone", 
