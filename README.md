@@ -17,7 +17,7 @@ WHERE lpep_pickup_datetime >= '2019-10-01 00:00:00'
   AND lpep_pickup_datetime < '2019-11-01 00:00:00'
 GROUP BY distance_range
 ORDER BY trip_count DESC;
-
+```
 
 ## Question 4;
 
